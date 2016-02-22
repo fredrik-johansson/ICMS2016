@@ -4,7 +4,7 @@ ICMS 2016: [Home](http://icms2016.zib.de/), [Sessions](http://icms2016.zib.de/se
 
 ## Organizers
 
-* Fredrik Johansson (fredrik.johansson@gmail.com)
+* Fredrik Johansson (INRIA Bordeaux) <fredrik.johansson@gmail.com>
 
 ## Aim and Scope
 
