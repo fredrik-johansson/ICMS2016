@@ -25,8 +25,6 @@ A *short abstract* will appear on the permanent conference web page (see below) 
 An *extended abstract* will appear on the permanent conference web page (see below) as soon as accepted.
 It will also appear on the proceedings that will be distributed during the meeting.
 
-A ***journal special issue*** consisting of full papers will be organized immediately after the meeting. 
-
 ## Submission Guidelines
 
 If you would like to give a talk at ICMS, you need to submit first a short abstract and then later an extended abstract. See the guideline for the details.
