@@ -33,3 +33,14 @@ After the meeting, the submission guideline for a journal special issue will be 
 
 ## Talks/Abstracts
 
+### On the computation of confluent hypergeometric functions for large imaginary part of b and z
+
+Authors:
+* Guillermo Navas-Palencia (Dept. Computer Science, Universitat Politècnica de Catalunya and Numerical Algorithms Group, Oxford)
+* Argimiro Arratia (Dept. Computer Science/BGSMath, Universitat Politècnica de Catalunya)
+
+Abstract:
+
+We present an efficient algorithm for the confluent hypergeometric functions when the imaginary part of b and z is large. The algorithm is based on the steepest descent method, applied to a suitable representation of the confluent hypergeometric function as a highly oscillatory integral, which is then integrated by using various quadrature methods.
+
+The performance of the algorithm is compared with open-source and commercial software solutions with arbitrary precision, and for many cases the algorithm achieves high accuracy in both the real and imaginary part. Our motivation comes from the need for accurate computation of the characteristic function of the Arcsine distribution and the Beta distribution; the latter being required in several financial applications, for example, modeling the loss given default in the context of portfolio credit risk.
