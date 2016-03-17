@@ -45,7 +45,7 @@ We present an efficient algorithm for the confluent hypergeometric functions whe
 
 The performance of the algorithm is compared with open-source and commercial software solutions with arbitrary precision, and for many cases the algorithm achieves high accuracy in both the real and imaginary part. Our motivation comes from the need for accurate computation of the characteristic function of the Arcsine distribution and the Beta distribution; the latter being required in several financial applications, for example, modeling the loss given default in the context of portfolio credit risk.
 
-### Title TBA
+### Rigorous Multiple-Precision Evaluation of D-Finite Functions in Sage
 
 Author: Marc Mezzarobba (LIP6, LIP6, Université Pierre et Marie Curie)
 
