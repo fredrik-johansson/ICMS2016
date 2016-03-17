@@ -44,3 +44,44 @@ Abstract:
 We present an efficient algorithm for the confluent hypergeometric functions when the imaginary part of b and z is large. The algorithm is based on the steepest descent method, applied to a suitable representation of the confluent hypergeometric function as a highly oscillatory integral, which is then integrated by using various quadrature methods.
 
 The performance of the algorithm is compared with open-source and commercial software solutions with arbitrary precision, and for many cases the algorithm achieves high accuracy in both the real and imaginary part. Our motivation comes from the need for accurate computation of the characteristic function of the Arcsine distribution and the Beta distribution; the latter being required in several financial applications, for example, modeling the loss given default in the context of portfolio credit risk.
+
+### Title TBA
+
+Author: Marc Mezzarobba (LIP6, LIP6, Université Pierre et Marie Curie)
+
+Abstract:
+
+We present an implementation, on top of the SageMath computer algebra
+system, of various algorithms for the numerical evaluation of
+so-called D-finite functions. A complex analytic function is D-finite
+when it satisfies an ordinary differential equation whose coefficients
+are polynomial in the independent variable. D-finite functions can be
+viewed as a class of special functions analogous to those of algebraic
+or hypergeometric functions (but more general). They come up in areas
+such as analytic combinatorics and mathematical physics, and lend
+themselves well to symbolic manipulation by computer algebra systems.
+
+The main task our package performs is the “numerical analytic
+continuation” of D-finite functions. This process results in a
+numerical approximation of the transition matrix that maps “initial
+values” of an ODE somewhere on the complex plane to “initial values”
+elsewhere that define the same solution. Numerical analytic
+continuation then serves to compute things like values or polynomial
+approximations of D-finite functions anywhere on their Riemann
+surfaces, and monodromy matrices of differential operators. The code
+supports the important limit case where the (generalized) initial
+values are provided at regular singular points of the ODE, making it
+possible in particular to compute connection constants between regular
+singularities. It is rigorous in the sense that it returns interval
+results that are guaranteed to enclose the exact mathematical result.
+
+The new package can be considered a successor of NumGfun, a Maple
+package by the same author with similar features.
+
+### Title TBA
+
+Author: Pascal Molin
+
+### Title TBA
+
+Author: Elias Tsigaridas
