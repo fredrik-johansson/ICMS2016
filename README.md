@@ -47,7 +47,7 @@ The performance of the algorithm is compared with open-source and commercial sof
 
 ### Rigorous Multiple-Precision Evaluation of D-Finite Functions in Sage
 
-Author: Marc Mezzarobba (LIP6, LIP6, Université Pierre et Marie Curie)
+Author: Marc Mezzarobba (LIP6, Université Pierre et Marie Curie)
 
 Abstract:
 
