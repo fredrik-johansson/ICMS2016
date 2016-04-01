@@ -81,9 +81,14 @@ Author: Pascal Molin (Institut de mathématiques de Jussieu, Université Paris 7
 I will present a package to compute with general L functions now available in the Pari/GP computer algebra system. L functions of all classical objects already in Pari/GP are available (Dirichlet and Hecke characters, elliptic curves, some modular forms), but this package is meant to handle L functions of any kind. I will explain the methods used and their limits.
 (This is joint work with B. Allombert, K. Belabas, and H. Cohen).
 
-### Title TBA
+### Real root isolation in FLINT
 
-Author: Elias Tsigaridas
+Author: Elias Tsigaridas (PolSys, Inria Paris-Rocquencourt)
+
+We present an implementation in FLINT of an exact algorithm based on Descartes's rule
+of signs for isolating the real roots of a univariate polynomial with integer coefficients.
+We describe  the technicalities behind our approach and we study the efficiency of the solver by
+an experimental analysis  on various datasets.
 
 ### Recursive double-size fixed precision arithmetic
 
