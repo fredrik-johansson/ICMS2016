@@ -27,9 +27,9 @@ It will also appear on the proceedings that will be distributed during the meeti
 
 ## Submission Guidelines
 
-If you would like to give a talk at ICMS, you need to submit first a short abstract and then later an extended abstract. See the guideline for the details.
+If you would like to give a talk at ICMS, you need to submit first a short abstract and then later an extended abstract. See the guideline (http://icms2016.zib.de/call-for-submission.html) for the details.
 
-After the meeting, the submission guideline for a journal special issue will be communicated to you by the session organizers. 
+This session is now closed for new submissions.
 
 ## Talks/Abstracts
 
