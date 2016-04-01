@@ -85,3 +85,30 @@ Author: Pascal Molin
 ### Title TBA
 
 Author: Elias Tsigaridas
+
+### Recursive double-size fixed precision arithmetic
+
+Authors: Alexis Breust, Christophe Chabot, Jean-Guillaume Dumas, Laurent Fousse, Pascal Giorgi
+
+We propose a new fixed precision arithmetic package called RecInt.
+It uses a recursive double-size data-structure.
+Contrary to arbitrary precision packages like GMP, 
+that create vectors of words on the heap, RecInt large integers are
+created on the stack. 
+The space allocated for these integers is a power of two and
+arithmetic is performed modulo that power. 
+Arithmetic operations are thus easily implemented recursively by a divide and
+conquer strategy. 
+Among those, we show that this packages is particularly well adapted to
+Newton-Raphson like iterations or Montgomery reduction.
+Recursivity is implemented via doubling algorithms on templated data-types.
+The idea is to extend machine word functionality to any power of two
+and to use template partial specialization to adapt the
+implemented routines to some specific sizes and thresholds.
+The main target precision is for cryptographic sizes, that is up to
+several tens of machine words. 
+Preliminary experiments show that good performance can be attained when
+comparing to the state of art GMP library: it can be several order of magnitude
+faster when used with very few machine words.
+This package is now integrated within the Givaro C++ library and has
+been used for efficient exact linear algebra computations.
