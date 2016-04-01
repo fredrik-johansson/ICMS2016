@@ -108,3 +108,27 @@ comparing to the state of art GMP library: it can be several order of magnitude
 faster when used with very few machine words.
 This package is now integrated within the Givaro C++ library and has
 been used for efficient exact linear algebra computations.
+
+### CAMPARY: Cuda Multiple Precision Arithmetic Library and Applications
+
+Author: Mioara Joldes (MAC, LAAS-CNRS)
+
+Many scientific computing applications demand massive numerical
+computations on parallel architectures such as Graphics Processing Units
+(GPUs). Usually, either floating-point single or double precision
+arithmetic is used. Higher precision is generally not available in
+hardware and software extended precision libraries are much slower and
+rarely supported on GPUs. We develop CAMPARY: a multiple-precision
+floating-point arithmetic library using the CUDA programming language
+for the NVidia GPU platform. In our approach, the precision is extended
+by representing real numbers as the unevaluated sum of several standard
+machine precision floating-point numbers. We make use of error-free
+transforms addition and multiplication algorithms, which are based only
+on native precision operations, but keep track of all rounding errors.
+This offers the simplicity of using hardware highly optimized
+floating-point operations, while also allowing for rigorously proven
+rounding error bounds. This allows as well for an interval arithmetic.
+Currently, all basic multiple-precision arithmetic operations are
+supported. Our target applications are in chaotic dynamical systems or
+automatic control. This is a joint work with V. Popescu, J.-M. Muller
+and W. Tucker.
