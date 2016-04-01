@@ -114,7 +114,11 @@ been used for efficient exact linear algebra computations.
 
 ### CAMPARY: Cuda Multiple Precision Arithmetic Library and Applications
 
-Author: Mioara Joldes (MAC, LAAS-CNRS)
+Authors:
+* Mioara Joldes (LAAS-CNRS)
+* Jean-Michel Muller (LIP Laboratory, ENS Lyon)
+* Valentina Popescu (LIP Laboratory, ENS Lyon)
+* Warwick Tucker (Department of Mathematics, Uppsala University)
 
 Many scientific computing applications demand massive numerical
 computations on parallel architectures such as Graphics Processing Units
@@ -133,5 +137,4 @@ floating-point operations, while also allowing for rigorously proven
 rounding error bounds. This allows as well for an interval arithmetic.
 Currently, all basic multiple-precision arithmetic operations are
 supported. Our target applications are in chaotic dynamical systems or
-automatic control. This is a joint work with V. Popescu, J.-M. Muller
-and W. Tucker.
+automatic control.
