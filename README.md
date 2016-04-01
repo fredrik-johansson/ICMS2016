@@ -92,7 +92,12 @@ an experimental analysis  on various datasets.
 
 ### Recursive double-size fixed precision arithmetic
 
-Authors: Alexis Breust, Christophe Chabot, Jean-Guillaume Dumas, Laurent Fousse, Pascal Giorgi
+Authors:
+* Alexis Breust
+* Christophe Chabot
+* Jean-Guillaume Dumas
+* Laurent Fousse
+* Pascal Giorgi
 
 We propose a new fixed precision arithmetic package called RecInt.
 It uses a recursive double-size data-structure.
