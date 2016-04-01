@@ -74,9 +74,12 @@ results that are guaranteed to enclose the exact mathematical result.
 The new package can be considered a successor of NumGfun, a Maple
 package by the same author with similar features.
 
-### Title TBA
+### L functions in Pari/GP
 
-Author: Pascal Molin
+Author: Pascal Molin (Institut de mathématiques de Jussieu, Université Paris 7)
+
+I will present a package to compute with general L functions now available in the Pari/GP computer algebra system. L functions of all classical objects already in Pari/GP are available (Dirichlet and Hecke characters, elliptic curves, some modular forms), but this package is meant to handle L functions of any kind. I will explain the methods used and their limits.
+(This is joint work with B. Allombert, K. Belabas, and H. Cohen).
 
 ### Title TBA
 
