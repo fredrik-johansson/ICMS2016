@@ -148,3 +148,31 @@ rounding error bounds. This allows as well for an interval arithmetic.
 Currently, all basic multiple-precision arithmetic operations are
 supported. Our target applications are in chaotic dynamical systems or
 automatic control.
+
+### Automatic implementation of the numerical Taylor series method
+
+Authors:
+* M. Rodriguez
+* A. Abad
+* R. Barrio
+* M. Marco-Buzunariz
+
+In the last few years, the requirements in the numerical solution of
+ordinary differential equations in physics and in dynamical systems have
+pointed to new kind of methods capable to maintain geometric properties
+of the equations or looking for arbitrary high-precision. One method
+that can solve most of these problems is the Taylor series method. TIDES
+is a free software based on the Taylor series method that uses an
+optimized variable-stepsize variable-order formulation. The kernel of
+this software consists of a C library that permits to compute up to any
+precision level (by using multiple precision libraries for high
+precision when needed) the solution of an ordinary differential system
+from a C driver program containing the equations of the ODE. In this
+talk we present the symbolic methods, implemented in a computer algebra
+system (Sagemath and Mathematica), used to automatically write the code
+based on the automatic differentiation processes that integrates a
+particular differential system by means of the Taylor method. The
+precompiler has been written in Mathematica and Sage (which includes
+tides  since version 6.4). Finally, we show several examples computing
+in a direct way solutions with 1000 precision digits of chaotic problems
+like the Lorenz model.
