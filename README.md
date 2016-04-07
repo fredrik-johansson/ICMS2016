@@ -152,10 +152,10 @@ automatic control.
 ### Automatic implementation of the numerical Taylor series method
 
 Authors:
-* M. Rodriguez
-* A. Abad
-* R. Barrio
-* M. Marco-Buzunariz
+* M. Rodriguez (Centro Universitario de la Defensa de Zaragoza)
+* A. Abad (University of Zaragoza)
+* R. Barrio (University of Zaragoza)
+* M. Marco-Buzunariz (University of Zaragoza)
 
 In the last few years, the requirements in the numerical solution of
 ordinary differential equations in physics and in dynamical systems have
