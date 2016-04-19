@@ -33,6 +33,12 @@ This session is now closed for new submissions.
 
 ## Talks/Abstracts
 
+### Special functions and interval arithmetic
+
+Speaker: Fredrik Johansson
+
+This short introductory talk will discuss recent work and open problems related to supporting special functions in interval arithmetic.
+
 ### On the computation of confluent hypergeometric functions for large imaginary part of b and z
 
 Authors:
