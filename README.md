@@ -41,6 +41,8 @@ This short introductory talk will discuss recent work and open problems related 
 
 ### On the computation of confluent hypergeometric functions for large imaginary part of b and z
 
+Slides: https://github.com/fredrik-johansson/ICMS2016/blob/master/GuillermoNavasICMS.pdf
+
 Authors:
 * Guillermo Navas-Palencia (Dept. Computer Science, Universitat Politècnica de Catalunya and Numerical Algorithms Group, Oxford)
 * Argimiro Arratia (Dept. Computer Science/BGSMath, Universitat Politècnica de Catalunya)
@@ -50,6 +52,8 @@ We present an efficient algorithm for the confluent hypergeometric functions whe
 The performance of the algorithm is compared with open-source and commercial software solutions with arbitrary precision, and for many cases the algorithm achieves high accuracy in both the real and imaginary part. Our motivation comes from the need for accurate computation of the characteristic function of the Arcsine distribution and the Beta distribution; the latter being required in several financial applications, for example, modeling the loss given default in the context of portfolio credit risk.
 
 ### Rigorous Multiple-Precision Evaluation of D-Finite Functions in Sage
+
+Slides: https://github.com/fredrik-johansson/ICMS2016/blob/master/mezzarobba-icms-20160711.pdf
 
 Author: Marc Mezzarobba (LIP6, Université Pierre et Marie Curie)
 
